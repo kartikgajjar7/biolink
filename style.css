@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Anek+Telugu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;500&family=Karla:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Rubik+Dirt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+   height: 1000px;
+ /* background: linear-gradient(#0042AA, rgb(100,156,210)); */
+ background-position: center;
+     background-image: url("https://c4.wallpaperflare.com/wallpaper/600/360/964/digital-art-landscape-forest-mountains-wallpaper-preview.jpg");  
+    /* background: radial-gradient(circle at -4% -12.9%, rgb(74, 98, 110) 0.3%, rgb(30, 33, 48) 90.2%);  */
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+
+.photo{
+    width: 100px;
+    border-radius: 50%;
+    transition: all 2s ease-in-out;
+}
+.mainsec{
+    margin-top: 50px;
+    text-align: center;
+}
+.text{
+    font-stretch: expanded;
+    display: inline;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(14, 6, 6);
+}
+.textm{
+    
+    display: inline;
+    letter-spacing: 2px;
+    font-family: 'Anek Telugu', sans-serif;
+    color: rgb(9, 0, 0);
+}
+.btn{
+    all: unset;
+    position: relative;
+    backdrop-filter: blur(15px);
+    margin-top: 30px;
+    align-items: center;
+    width: 70%;
+    text-align: center;
+    height: 60px;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255);
+    transition: all 0.1s ease-in
+}
+.btn:hover{
+    transform:  scale(1.05);
+    
+}
+.imgg{
+    position: absolute;
+    top:5px;
+    left: 30px;
+}
+.names{
+    letter-spacing: 2px;
+    font-family: 'Anek Telugu', sans-serif;
+    position: absolute;
+    top: 20px;
+    font-size:20px;
+    right: 135px;
+}
+.namesm{
+    letter-spacing: 2px;
+    font-family: 'Anek Telugu', sans-serif;
+    position: absolute;
+    top: 20px;
+    font-size:20px;
+    right: 155px;
+}
+.middle{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.para{
+    letter-spacing: 2px;
+    font-family: 'Anek Telugu', sans-serif;
+    margin-top: 10px;
+    color:rgb(4, 0, 0);
+}
+.paras{
+    letter-spacing: 2px;
+    font-family: 'Anek Telugu', sans-serif;
+    color:rgb(22, 1, 1);
+}
+.center{
+    box-shadow: 0 8px 32px 0 rgb(0, 0, 0,0.37);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    height: 400px;
+    border-radius: 7%;
+    margin: 50px;
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+  
+.imggv{
+    margin-top: 8px;
+    margin-right: 250px;
+    width: 35px;
+    width: 35px;
+}
+.inl{
+    width: 100px;
+    height: 10px;
+}
+.pic{
+    padding-top: 5px;
+   margin-left: 5px;
+    width: 20px;
+}
+.vew{
+    margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    .btn{
+        width: 250px;
+        height: 50px;
+    }
+    .para{
+        font-size: 15px;
+    }
+    .paras{
+        font-size: 15px;
+    }
+    .names{
+        right:auto;
+        top: 11px;
+    }
+    .namesm{
+        right:auto;
+        top:11px;
+    }
+    .imgg{
+        width: 35px;
+    }
+    .center{
+        height: 350px;
+    }
+    html{
+        height: 700px;
+    }
+  }
