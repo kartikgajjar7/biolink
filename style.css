@@ -45,6 +45,7 @@ html{
     color: rgb(9, 0, 0);
 }
 .btn{
+    border: 1px solid black;
     all: unset;
     position: relative;
     backdrop-filter: blur(15px);
