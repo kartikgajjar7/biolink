@@ -83,12 +83,13 @@ html{
     right: 155px;
 }
 .middle{
-    padding: 30px;
+    
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 .para{
+    padding: 15px;
     letter-spacing: 2px;
     font-family: 'Anek Telugu', sans-serif;
     margin-top: 10px;
