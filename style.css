@@ -49,14 +49,14 @@ html{
     background-color: transparent;
     all: unset;
     position: relative;
-    backdrop-filter: blur(15px);
+   
     margin-top: 30px;
     align-items: center;
     width: 70%;
     text-align: center;
     height: 60px;
     border-radius: 30px;
-    background-color: rgba(255, 255, 255);
+    
     transition: all 0.1s ease-in
 }
 .btn:hover{
