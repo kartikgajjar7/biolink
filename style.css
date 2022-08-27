@@ -46,7 +46,7 @@ html{
 }
 .btn{
    
-    background-color: transparent;
+    background-color: white;
     all: unset;
     position: relative;
     border: 5px solid black;
